@@ -18,6 +18,7 @@ import java.util.List;
 import java.awt.BorderLayout;
 import java.util.StringTokenizer;
 import javafx.application.Platform;
+import javax.swing.JButton;
 import javax.swing.JPanel;
 
 /**
@@ -68,10 +69,13 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         tf_Endereco5 = new javax.swing.JTextField();
         JPOpcao_37 = new javax.swing.JPanel();
         jLabel85 = new javax.swing.JLabel();
-        btLogin = new javax.swing.JButton();
+        JPOpcao_38 = new javax.swing.JPanel();
+        jLabel86 = new javax.swing.JLabel();
+        JPOpcao_39 = new javax.swing.JPanel();
+        tf_SenhaEmail = new javax.swing.JTextField();
 
         setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 0, 0, new java.awt.Color(0, 0, 0)));
-        setPreferredSize(new java.awt.Dimension(908, 71));
+        setPreferredSize(new java.awt.Dimension(1034, 71));
 
         JPOpcao_26.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 1, new java.awt.Color(153, 0, 153)));
         JPOpcao_26.setPreferredSize(new java.awt.Dimension(284, 27));
@@ -97,7 +101,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_26Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel80, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE))
+                .addComponent(jLabel80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         JPOpcao_26Layout.setVerticalGroup(
             JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -146,8 +150,8 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(JPOpcao_27Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tf_Endereco, javax.swing.GroupLayout.DEFAULT_SIZE, 125, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(tf_Endereco, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         JPOpcao_27Layout.setVerticalGroup(
             JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -156,6 +160,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
                 .addComponent(tf_Endereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/home_controle_menus_norte/imagens/nuvem.png"))); // NOI18N
         jLabel1.setText("Iniciar");
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -189,9 +194,10 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         JPOpcao_30.setLayout(JPOpcao_30Layout);
         JPOpcao_30Layout.setHorizontalGroup(
             JPOpcao_30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_30Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(JPOpcao_30Layout.createSequentialGroup()
+                .addGap(9, 9, 9)
+                .addComponent(jLabel82)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         JPOpcao_30Layout.setVerticalGroup(
             JPOpcao_30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -214,7 +220,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         });
 
         tf_Senha.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        tf_Senha.setText("23071354");
+        tf_Senha.setText("******");
         tf_Senha.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
         tf_Senha.setPreferredSize(new java.awt.Dimension(209, 25));
         tf_Senha.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -240,7 +246,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             JPOpcao_31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(JPOpcao_31Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tf_Senha, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(tf_Senha, javax.swing.GroupLayout.DEFAULT_SIZE, 93, Short.MAX_VALUE)
                 .addContainerGap())
         );
         JPOpcao_31Layout.setVerticalGroup(
@@ -272,9 +278,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         JPOpcao_32.setLayout(JPOpcao_32Layout);
         JPOpcao_32Layout.setHorizontalGroup(
             JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_32Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel83, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE))
+            .addComponent(jLabel83, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         JPOpcao_32Layout.setVerticalGroup(
             JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -375,8 +379,8 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(JPOpcao_34Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tf_Endereco4, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(tf_Endereco4, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         JPOpcao_34Layout.setVerticalGroup(
             JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -413,7 +417,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         );
         JPOpcao_35Layout.setVerticalGroup(
             JPOpcao_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel84, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
         );
 
         JPOpcao_36.setBackground(new java.awt.Color(255, 255, 255));
@@ -458,8 +462,8 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             JPOpcao_36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(JPOpcao_36Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tf_Endereco5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(tf_Endereco5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         JPOpcao_36Layout.setVerticalGroup(
             JPOpcao_36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -499,41 +503,127 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             .addComponent(jLabel85, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
         );
 
-        btLogin.setText("Script");
+        JPOpcao_38.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_38.setPreferredSize(new java.awt.Dimension(284, 27));
+        JPOpcao_38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_38MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_38MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_38MousePressed(evt);
+            }
+        });
+
+        jLabel86.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
+        jLabel86.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel86.setText("Senha/Email.: ");
+
+        javax.swing.GroupLayout JPOpcao_38Layout = new javax.swing.GroupLayout(JPOpcao_38);
+        JPOpcao_38.setLayout(JPOpcao_38Layout);
+        JPOpcao_38Layout.setHorizontalGroup(
+            JPOpcao_38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_38Layout.createSequentialGroup()
+                .addGap(9, 9, 9)
+                .addComponent(jLabel86)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        JPOpcao_38Layout.setVerticalGroup(
+            JPOpcao_38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel86, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
+        );
+
+        JPOpcao_39.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_39.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_39.setPreferredSize(new java.awt.Dimension(284, 27));
+        JPOpcao_39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_39MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_39MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_39MousePressed(evt);
+            }
+        });
+
+        tf_SenhaEmail.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tf_SenhaEmail.setText("******");
+        tf_SenhaEmail.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
+        tf_SenhaEmail.setPreferredSize(new java.awt.Dimension(209, 25));
+        tf_SenhaEmail.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tf_SenhaEmailMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                tf_SenhaEmailMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                tf_SenhaEmailMouseExited(evt);
+            }
+        });
+        tf_SenhaEmail.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                tf_SenhaEmailKeyReleased(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_39Layout = new javax.swing.GroupLayout(JPOpcao_39);
+        JPOpcao_39.setLayout(JPOpcao_39Layout);
+        JPOpcao_39Layout.setHorizontalGroup(
+            JPOpcao_39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_39Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(tf_SenhaEmail, javax.swing.GroupLayout.DEFAULT_SIZE, 93, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_39Layout.setVerticalGroup(
+            JPOpcao_39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_39Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(tf_SenhaEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
         jPanel28.setLayout(jPanel28Layout);
         jPanel28Layout.setHorizontalGroup(
             jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel28Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel2)
                     .addGroup(jPanel28Layout.createSequentialGroup()
-                        .addComponent(JPOpcao_26, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JPOpcao_26, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(JPOpcao_27, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JPOpcao_27, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(JPOpcao_32, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)
-                    .addComponent(JPOpcao_30, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE))
+                    .addComponent(JPOpcao_32, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
+                    .addComponent(JPOpcao_30, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(JPOpcao_33, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE)
-                    .addComponent(JPOpcao_31, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE))
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(JPOpcao_33, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JPOpcao_31, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(JPOpcao_37, javax.swing.GroupLayout.DEFAULT_SIZE, 132, Short.MAX_VALUE)
                     .addComponent(JPOpcao_35, javax.swing.GroupLayout.DEFAULT_SIZE, 132, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(JPOpcao_34, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE)
-                    .addComponent(JPOpcao_36, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btLogin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(19, 19, 19))
+                    .addComponent(JPOpcao_34, javax.swing.GroupLayout.DEFAULT_SIZE, 111, Short.MAX_VALUE)
+                    .addComponent(JPOpcao_36, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addComponent(JPOpcao_38, javax.swing.GroupLayout.DEFAULT_SIZE, 121, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(JPOpcao_39, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel28Layout.setVerticalGroup(
             jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -550,19 +640,29 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
                         .addComponent(JPOpcao_26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(JPOpcao_30, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
             .addGroup(jPanel28Layout.createSequentialGroup()
-                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btLogin)
-                    .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(JPOpcao_34, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(JPOpcao_33, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(JPOpcao_35, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(JPOpcao_39, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(JPOpcao_33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JPOpcao_38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(JPOpcao_31, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE))
+                    .addGroup(jPanel28Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel28Layout.createSequentialGroup()
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(JPOpcao_34, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JPOpcao_35, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(JPOpcao_31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(JPOpcao_37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(JPOpcao_36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(JPOpcao_37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JPOpcao_36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -571,7 +671,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 41, Short.MAX_VALUE))
+                .addGap(0, 59, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -623,18 +723,25 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         // TODO add your handling code here:
     }//GEN-LAST:event_JPOpcao_27MousePressed
 
+    JPanel jp_Identificador_IP_Web_Servidor; 
     private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MousePressed
 
         new Thread() {   @Override public void run() { try { Thread.sleep( 1 );             
+            jp_Identificador_IP_Web_Servidor = new JPanel( new BorderLayout() );  
+            Home.adicionar_Tela_De_Trabalho("Identificador IP Web Servidor", jp_Identificador_IP_Web_Servidor);
             enviar_mensagem();
         } catch( Exception e ){ e.printStackTrace(); } } }.start();
     }//GEN-LAST:event_jLabel1MousePressed
 
     public void enviar_ip() {                                     
 
-        Home.ControleTabs.removerTabSelecionado();
-        new Thread() {   @Override public void run() { try { Thread.sleep( 60000 );             
+        //Home.ControleTabs.removerTabSelecionado();
+        new Thread() {   @Override public void run() { try {             
             
+            jp_Identificador_IP_Web_Servidor.removeAll();
+            validate();
+            //jp_Identificador_IP_Web_Servidor = new JPanel( new BorderLayout() );             
+            Thread.sleep( 60000 ); 
             enviar_mensagem();
         } catch( Exception e ){ e.printStackTrace(); } } }.start();
     } 
@@ -798,6 +905,46 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
     private void JPOpcao_37MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_37MousePressed
         // TODO add your handling code here:
     }//GEN-LAST:event_JPOpcao_37MousePressed
+
+    private void JPOpcao_38MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_38MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_38MouseEntered
+
+    private void JPOpcao_38MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_38MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_38MouseExited
+
+    private void JPOpcao_38MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_38MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_38MousePressed
+
+    private void tf_SenhaEmailMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tf_SenhaEmailMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_SenhaEmailMouseClicked
+
+    private void tf_SenhaEmailMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tf_SenhaEmailMouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_SenhaEmailMouseEntered
+
+    private void tf_SenhaEmailMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tf_SenhaEmailMouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_SenhaEmailMouseExited
+
+    private void tf_SenhaEmailKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_tf_SenhaEmailKeyReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_SenhaEmailKeyReleased
+
+    private void JPOpcao_39MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_39MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_39MouseEntered
+
+    private void JPOpcao_39MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_39MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_39MouseExited
+
+    private void JPOpcao_39MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_39MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_39MousePressed
     
     BrowserFX BrowserFX;
     List<String> list_cmd;
@@ -808,7 +955,7 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         String destinatario  = "jmarysystems0001@gmail.com";
         String assunto = "0123456789";
         String login   = "jmarysystems0001@gmail.com";
-        String pass    = tf_Senha.getText().trim();;
+        String pass    = tf_SenhaEmail.getText().trim();
         
         list_cmd = new ArrayList();
         list_cmd.add(destinatario);                               //Destinatário "jmarysystems@gmail.com"
@@ -820,18 +967,16 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
         fileMails = new ArrayList<File>();                       //lista contendo os arquivos anexos
         String arquivo1 = "/anexos/CLEILSON_HENRIQUE_DE_ARAUJO" + ".pdf";
         fileMails.add(new File(arquivo1));
-        
-        JPanel p = new JPanel( new BorderLayout() );        
-        BrowserFX = new BrowserFX( tf_Endereco.getText().trim(),true,true,true,btLogin );
-        p.add( BrowserFX, BorderLayout.CENTER );
-        Home.adicionar_Tela_De_Trabalho("BrowserFX", p);
+                       
+        BrowserFX = new BrowserFX( tf_Endereco.getText().trim(),true,true,true, new JButton() );
+        jp_Identificador_IP_Web_Servidor.add( BrowserFX, BorderLayout.CENTER );        
         
         Thread.sleep( 20000 );     
         Platform.runLater(new Runnable() {
            @Override
             public void run() {
                 BrowserFX.eng.executeScript( "document.getElementById('username').value = 'Admin'" );
-                BrowserFX.eng.executeScript( "document.getElementById('password').value = '23071354'" );
+                BrowserFX.eng.executeScript( "document.getElementById('password').value = '" + tf_Senha.getText().trim() + "'" );
                 BrowserFX.eng.executeScript( "document.getElementById('loginBtn').click()" ); 
             }
         });
@@ -874,7 +1019,8 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
     private javax.swing.JPanel JPOpcao_35;
     private javax.swing.JPanel JPOpcao_36;
     private javax.swing.JPanel JPOpcao_37;
-    public javax.swing.JButton btLogin;
+    private javax.swing.JPanel JPOpcao_38;
+    private javax.swing.JPanel JPOpcao_39;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel80;
@@ -882,12 +1028,14 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
     private javax.swing.JLabel jLabel83;
     private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
     private javax.swing.JPanel jPanel28;
     public javax.swing.JTextField tf_Endereco;
     public javax.swing.JTextField tf_Endereco3;
     public javax.swing.JTextField tf_Endereco4;
     public javax.swing.JTextField tf_Endereco5;
     public javax.swing.JTextField tf_Senha;
+    public javax.swing.JTextField tf_SenhaEmail;
     // End of variables declaration//GEN-END:variables
     
     String ip = "";

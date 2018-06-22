@@ -134,7 +134,7 @@ public class Identificador_Ip_Web_Servidor_Menu_01 extends javax.swing.JPanel {
         menu_maimais.add(jSeparator1);
 
         jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/home_controle_menus_norte/imagens/nuvem.png"))); // NOI18N
-        jMenuItem7.setText("Brouser JavaFX");
+        jMenuItem7.setText("Identificador Ip Web Servidor");
         jMenuItem7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 jMenuItem7MouseEntered(evt);

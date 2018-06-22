@@ -106,7 +106,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/home_controle_menus_norte/imagens/nuvem.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Brouser JavaFX"/>
+                    <Property name="text" type="java.lang.String" value="Identificador Ip Web Servidor"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenuItem7MouseEntered"/>
