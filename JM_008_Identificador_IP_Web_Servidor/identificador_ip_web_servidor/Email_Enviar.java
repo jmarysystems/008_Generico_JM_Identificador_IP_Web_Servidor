@@ -432,9 +432,11 @@ public class Email_Enviar {
         
             Transport.send(msg);
             
-            Leitor_De_Email_Submenu_01.enviar_ip();
+            //Leitor_De_Email_Submenu_01.enviar_ip();
             
-        } catch( Exception e ){ JOPM JOPM = new JOPM( "MÉTODO: " + "enviar_mensagem()\n"
+        } catch( Exception e ){ 
+            
+            JOPM JOPM = new JOPM( "MÉTODO: " + "enviar_mensagem()\n"
                     ,"\nErro ao tentar enviar_mensagem" 
                     ,this.getClass().getName() ); 
 

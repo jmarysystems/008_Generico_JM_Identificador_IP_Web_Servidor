@@ -730,20 +730,20 @@ public class Identificador_Ip_Web_Servidor_Submenu_01 extends javax.swing.JPanel
             jp_Identificador_IP_Web_Servidor = new JPanel( new BorderLayout() );  
             Home.adicionar_Tela_De_Trabalho("Identificador IP Web Servidor", jp_Identificador_IP_Web_Servidor);
             enviar_mensagem();
+            enviar_ip();
         } catch( Exception e ){ e.printStackTrace(); } } }.start();
     }//GEN-LAST:event_jLabel1MousePressed
 
     public void enviar_ip() {                                     
 
-        //Home.ControleTabs.removerTabSelecionado();
-        new Thread() {   @Override public void run() { try {             
-            
-            jp_Identificador_IP_Web_Servidor.removeAll();
-            validate();
-            //jp_Identificador_IP_Web_Servidor = new JPanel( new BorderLayout() );             
-            Thread.sleep( 60000 ); 
-            enviar_mensagem();
-        } catch( Exception e ){ e.printStackTrace(); } } }.start();
+        while(true){
+            new Thread() {   @Override public void run() { try {             
+                Thread.sleep( 120000 ); 
+                jp_Identificador_IP_Web_Servidor.removeAll();
+                validate();
+                enviar_mensagem();
+            } catch( Exception e ){ e.printStackTrace(); } } }.start();
+        }
     } 
     
     private void JPOpcao_30MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_30MouseEntered
